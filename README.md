@@ -1,6 +1,6 @@
 # Violence-Detection-use-MobileNetV2-BiLSTM-ATTENTION
 
-This project addresses the task of **video-based violence detection** using deep learning. Spatial features are extracted from video frames with  **MobileNetV2** , while temporal dependencies are modeled using a  **Bi-directional LSTM (BiLSTM)** .
+This project addresses the task of **video-based violence detection** using deep learning. Spatial features are extracted from video frames with  **MobileNetV2** , while temporal dependencies are modeled using a  **Bi-directional LSTM (https://github.com/dungyta/-violence-detection-use-MobileNetV2-BiLSTM-ATTENTION/blob/main/README.mdBiLSTM)** .
 
 The system supports stable video inference with confidence visualization and output video saving.
 
