@@ -4,27 +4,32 @@ This project addresses the task of **video-based violence detection** using deep
 
 The system supports stable video inference with confidence visualization and output video saving.
 
-**SUMARY**
+
+
+
+## SUMMARY
+
 ![image](image.png)
+
+---
 
 ## Cấu trúc thư mục
 
+```text
 model.py              # Định nghĩa model (MobileNetV2 + BiLSTM)
 inference.py          # Script inference trên video
 best_model.pth        # Trọng số model đã huấn luyện
 requirements.txt      # Danh sách thư viện cần thiết
+check_vid.py          # Test video demo inference
+qua_trinh_train.ipynb # Train model trên Colab
 archive/
-   └── data/             # Video to Test demo real_time, difference data use in train and val
+└── data/             # Video test demo (khác dữ liệu train/val)
+assets/
+└── demo.png          # Ảnh minh hoạ inference
 README.md
 
-check_vid.py  # Test video demo inference
-
-qua_tring_train.iqynb # Train model incolab
-
----
-
 **Nếu muốn có trọng số best_model.pth thì chạy file colab, duoi day la huong dan inference:**
-
+```
 ## Cài đặt môi trường
 
 ### 1 Clone repository
@@ -66,8 +71,7 @@ output_violence_demo.mp4
 check demo in output_violence_demo.mp4
 
 ---
-![example](    -violence-detection-use-MobileNetV2-BiLSTM-ATTENTION/Screenshot from 2025-12-19 15-56-41.png)
-
+![example](2.png)
 
 ## Chi tiết inference
 
