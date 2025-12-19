@@ -35,7 +35,7 @@ README.md
 ### 1 Clone repository
 
 ```bash
-git clone https://github.com/dungyta/violence-detection-use-MobileNetV2-BiLSTM-ATTENTION.git
+git clone https://github.com/dungyta/-violence-detection-use-MobileNetV2-BiLSTM-ATTENTION.git
 cd project_violence
 ```
 
