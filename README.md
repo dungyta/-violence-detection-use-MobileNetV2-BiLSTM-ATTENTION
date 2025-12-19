@@ -5,7 +5,7 @@ This project addresses the task of **video-based violence detection** using deep
 The system supports stable video inference with confidence visualization and output video saving.
 
 **SUMARY**
-![example](/home/dun/project_violence/image.png)
+![image](/home/dun/project_violence/image.png)
 
 ## Cấu trúc thư mục
 
