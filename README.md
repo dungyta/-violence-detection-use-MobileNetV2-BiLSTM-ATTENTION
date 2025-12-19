@@ -9,21 +9,21 @@ The system supports stable video inference with confidence visualization and out
 
 ## Cấu trúc thư mục
 
-project_violence/
-│
-├── model.py              # Định nghĩa model (MobileNetV2 + BiLSTM)
-├── inference.py          # Script inference trên video
-├── best_model.pth        # Trọng số model đã huấn luyện
-├── requirements.txt      # Danh sách thư viện cần thiết
-├── archive/
+model.py              # Định nghĩa model (MobileNetV2 + BiLSTM)
+inference.py          # Script inference trên video
+best_model.pth        # Trọng số model đã huấn luyện
+requirements.txt      # Danh sách thư viện cần thiết
+archive/
    └── data/             # Video to Test demo real_time, difference data use in train and val
-├──README.md
+README.md
 
-├──check_vid.py  # Test video demo inference
+check_vid.py  # Test video demo inference
 
-├── qua_tring_train.iqynb # Train model incolab
+qua_tring_train.iqynb # Train model incolab
 
 ---
+
+**Nếu muốn có trọng số best_model.pth thì chạy file colab, duoi day la huong dan inference:**
 
 ## Cài đặt môi trường
 
